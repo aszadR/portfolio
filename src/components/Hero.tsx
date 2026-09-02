@@ -76,8 +76,7 @@ export default function Hero() {
                 <Linkedin className="h-4 w-4" />
                 LinkedIn
               </a>
-             <a
-  href={`${import.meta.env.BASE_URL}Aszadur-Rahman-CV.pdf`}
+             <a href={`${import.meta.env.BASE_URL}Aszadur-Rahman-CV.pdf`}
   target="_blank"
   rel="noopener noreferrer"
 >
