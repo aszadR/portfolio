@@ -151,18 +151,30 @@ export default function ProjectDetails({ project, onClose }: ProjectDetailsProps
             </p>
           )}
 
-          {/* Actions */}
-          <div className="mt-8 flex items-center gap-3 border-t border-ink-700/40 pt-6">
-            <a
-              href={project.githubUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-ghost"
-            >
-              <Github className="h-4 w-4" />
-              View on GitHub
-            </a>
-          </div>
+{/* Actions */}
+<div className="mt-8 flex flex-wrap items-center gap-3 border-t border-ink-700/40 pt-6">
+  <a
+    href={project.githubUrl}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="btn-ghost"
+  >
+    <Github className="h-4 w-4" />
+    View on GitHub
+  </a>
+
+  {project.reportUrl && (
+    <a
+      href={project.reportUrl}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="btn-ghost"
+    >
+      <FileText className="h-4 w-4" />
+      View Report
+    </a>
+  )}
+</div>
         </div>
       </div>
     </div>
