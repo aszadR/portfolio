@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { X, Github, Gauge, ChevronRight, Workflow, CheckCircle2 } from 'lucide-react';
+import { X, Github, FileText, Gauge, ChevronRight, Workflow, CheckCircle2 } from 'lucide-react';
 import type { Project } from '@/data/portfolio';
 
 interface ProjectDetailsProps {
