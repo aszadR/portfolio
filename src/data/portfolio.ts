@@ -60,6 +60,7 @@ export interface Project {
   note?: string;
   githubUrl: string;
   projectUrl: string;
+  reportUrl?: string;
 }
 
 export const projects: Project[] = [
