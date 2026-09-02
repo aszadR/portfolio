@@ -84,6 +84,7 @@ export const projects: Project[] = [
     keyResult: { value: '642.54 mV', label: 'Static Noise Margin' },
     githubUrl: 'https://github.com/aszadur-rahman/6t-sram-design',
     projectUrl: '#',
+    reportUrl: 'https://drive.google.com/file/d/17yWWFwE20rebAYfdHfdd0yV67aHYj3qZ/view?usp=drive_link',
   },
   {
     id: 'cmos-inverter',
@@ -108,7 +109,27 @@ export const projects: Project[] = [
     flow: ['Schematic', 'SPICE', 'Layout', 'DRC/LVS', 'Validation'],
     githubUrl: 'https://github.com/aszadur-rahman/cmos-inverter-sky130',
     projectUrl: '#',
+    reportUrl: 'https://drive.google.com/file/d/1hLP5D8p5mBIelvXfAHSF1hjzYJLHZnVw/view?usp=drive_link',
   },
+  {
+  id: 'full-custom-ic-design',
+  title: 'Full-Custom & Semi-Custom IC Design Flow',
+  category: 'VLSI / IC Design',
+  tools: ['Cadence Virtuoso', 'Full-Custom Design', 'Semi-Custom Design'],
+  description:
+    'Hands-on training in full-custom and semi-custom IC design flow using Cadence EDA tools, covering schematic design, simulation, layout and design verification.',
+  highlights: [
+    'Full-custom IC design flow',
+    'Semi-custom IC design flow',
+    'Cadence EDA tools',
+    'Schematic design and simulation',
+    'IC layout and verification',
+  ],
+  githubUrl: '#',
+  projectUrl: '#',
+  reportUrl:
+    'https://drive.google.com/file/d/11ocSRyiZjkmDtfeo3dOyccCLCclt3aTD/view?usp=drive_link',
+},
   {
     id: 'alarm-clock',
     title: 'RTL Smart Alarm Clock',
@@ -150,6 +171,7 @@ export const projects: Project[] = [
     note: 'Sensing hardware and data collection were implemented. Cloud analysis, AI/ML risk prediction and multilingual alerts are proposed concepts.',
     githubUrl: 'https://github.com/aszadur-rahman/jal-suraksha',
     projectUrl: '#',
+    reportUrl: 'https://drive.google.com/file/d/16w8zWc8Njpd1iSo6xF5c7wTzFcSkNnkY/view?usp=drive_link',
   },
   {
     id: 'esp32',
