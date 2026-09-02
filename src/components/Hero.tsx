@@ -76,10 +76,13 @@ export default function Hero() {
                 <Linkedin className="h-4 w-4" />
                 LinkedIn
               </a>
-              <a href={profile.cvPath} download className="btn-ghost">
-                <FileDown className="h-4 w-4" />
-                Download CV
-              </a>
+             <a
+  href={`${import.meta.env.BASE_URL}Aszadur-Rahman-CV.pdf`}
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Download CV
+</a>
             </div>
           </div>
 
